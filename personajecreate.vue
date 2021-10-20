@@ -9,11 +9,11 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="editionInput">alter_ego:</label>
-                    <input type="text" class="form-control" name="edition" v-model='personaje.edition'>
+                    <input type="text" class="form-control" name="alter_ego" v-model='personaje.alter_ego'>
                 </div>
                 <div class="form-group col-md-6">
                     <label for="LanguageInput">create_year:</label>
-                    <input type="text" class="form-control" name="language" v-model='personaje.language'>
+                    <input type="text" class="form-control" name="create_year" v-model='personaje.create_year'>
                 </div>
             </div>
         </form>
