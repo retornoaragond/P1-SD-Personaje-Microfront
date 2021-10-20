@@ -68,11 +68,11 @@ module.exports = {
                 headers:{"Content-Type": "application/json"},
                 body: JSON.stringify(ilus)
             };
-           /* fetch("https://p1-sd-personajes-microservice.herokuapp.com/personaje",opc)
+           fetch("https://p1-sd-personajes-microservice.herokuapp.com/personaje",opc)
                 .then((data) => {
                 console.log('Print1: ' + data.name);
                 router.push('/personaje');
-            })*/
+            })
             //console.log(opc);
         }
     }
